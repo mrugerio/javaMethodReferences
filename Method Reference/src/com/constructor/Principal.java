@@ -7,8 +7,6 @@ public class Principal {
 		principal.referenciarConstructor01();
 		principal.referenciarConstructor02();
 		principal.referenciarConstructor03();
-
-
 	}
 	
 	public void referenciarConstructor01(){
