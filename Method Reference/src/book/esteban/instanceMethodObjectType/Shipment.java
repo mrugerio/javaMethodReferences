@@ -1,4 +1,4 @@
-package book.esteban.instanceMethodObject;
+package book.esteban.instanceMethodObjectType;
 
 import java.util.ArrayList;
 import java.util.List;

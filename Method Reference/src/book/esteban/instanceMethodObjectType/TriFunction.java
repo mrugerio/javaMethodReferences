@@ -1,4 +1,4 @@
-package book.esteban.instanceMethodObject;
+package book.esteban.instanceMethodObjectType;
 
 interface TriFunction<T, U, V, R> {
 	
