@@ -1,5 +1,6 @@
 package video.someObjectInstanceMethod;
 
+import video.StringFunction;
 import video.Utils;
 
 public class Principal {
@@ -8,6 +9,10 @@ public class Principal {
 		
 		String s = "Test";
 		String prefix = "Blah";
+		
+		StringFunction funcion01 = s::concat;
+		String resultado00 = funcion01.aplicarFuncion(prefix);
+		System.out.println(resultado00);		
 		
 		String resultado01 = Utils.transforma(s, x -> prefix.concat(x));
 		System.out.println(resultado01);		
