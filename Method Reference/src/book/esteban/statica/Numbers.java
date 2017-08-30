@@ -27,9 +27,11 @@ public class Numbers {
 	public static void main(String args[]){
 		List<Integer> list = Arrays.asList(12,5,45,18,33,24,40);
 	
+		BiPredicate<Integer,Integer> biPredicado = Numbers::isMoreThanFifty;
+		
 		//USING A METHOD REFERENCE
 		List<Integer> listaResultado;
-		listaResultado = findNumbers(list, Numbers::isMoreThanFifty);
+		listaResultado = findNumbers(list, biPredicado );
 		System.out.println(listaResultado);
 		
 		//LAMBDA
