@@ -10,7 +10,7 @@ public class Principal {
 		String s = "Test";
 		
 		StringFunction funcion00 = Utils::hacerExcitante;
-		String prueba = funcion00.aplicarFuncion("Prueba");
+		String prueba = funcion00.aplicarFuncion(s);
 		System.out.println(prueba);
 
 		// SomeClass.staticMethod

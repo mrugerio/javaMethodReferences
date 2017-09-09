@@ -9,7 +9,7 @@ public class Principal {
 		String s = "Test";
 		
 		StringFunction funcion01 = String::toUpperCase;
-		String resul = funcion01.aplicarFuncion("prueba");
+		String resul = funcion01.aplicarFuncion(s);
 		System.out.println(resul);
 		
 		String resultado01 = Utils.transforma(s, x -> x.toUpperCase());
